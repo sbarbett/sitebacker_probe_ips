@@ -10,7 +10,7 @@ This tool downloads the UltraDNS REST API User Guide PDF and extracts the IP Pro
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/sitebacker_probe_ips.git
+   git clone https://github.com/sbarbett/sitebacker_probe_ips.git
    cd sitebacker_probe_ips
    ```
 
