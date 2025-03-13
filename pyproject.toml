@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sitebacker_probe_ips"
+version = "0.1.0"
+description = "IPs of UltraDNS SiteBacker Probes"
+authors = [
+  { name = "Shane Barbetta", email = "shane@barbetta.me" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["ultradns", "sitebacker", "probes"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "pymupdf",
+  "requests",
+  "pyyaml"
+]
+
+[tool.setuptools.packages.find]
+# Point setuptools to the "src" folder for the package
+where = ["src"]
